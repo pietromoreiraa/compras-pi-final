@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <h1 class="text-center">Produtos</h1>
+    <h1 class="text-center">Detalhamento Produtos</h1>
 
 
 
@@ -14,12 +14,30 @@
             $fornecedor=$produto->find($produto->id)->relFornecedor;
         @endphp
 
-        Nome: {{$produto->name}}<br>
-        Preço: R$ {{$produto->price}}<br>
-        Fornecedor:<a href="{{url("fornecedor/$fornecedor->id")}}"> {{$fornecedor->name}}</a><br>
-        Email do fornecedor: {{$fornecedor->email}} <br>
-        Fone para contato: {{$fornecedor->celular}}<br>
-        Ultima modificação por: {{$user->name}} <br>
+        <table class="table table-borderless table-dark">
+            <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Preço</th>
+                <th scope="col">Fonecedor</th>
+                <th scope="col">E-mail do fornecedor</th>
+                <th scope="col">Telefone</th>
+                <th scope="col">Última Modificação</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">{{$produto->name}}</th>
+                <td>{{$produto->price}}</td>
+                <td><a href="{{url("fornecedor/$fornecedor->id")}}" style="color: #ffe70a; font-weight:bold"> {{$fornecedor->name}}</a></td>
+                <td>{{$fornecedor->email}}</td>
+                <td>{{$fornecedor->celular}}</td>
+                <td>{{$user->name}} </td>
+
+            </tr>
+            </tbody>
+        </table>
+
     </div>
 
 @endsection

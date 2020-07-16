@@ -5,8 +5,8 @@
 
 
 
-
-    <div>
+<br><br>
+    <div class="col-8 m-auto">
 
         <h1 class="text-center">Solicitação</h1>
 
@@ -29,7 +29,7 @@
                 <option>Número</option>
                 <option>Lote</option>
                 <option>Caixa</option>
-            </select>''
+            </select>
             <br><input class="btn btn-primary" type="submit" value="Cadastrar"><br>
             <br> <label> Quantidade unitária somente valido por item que vem em caixa. </label>
 

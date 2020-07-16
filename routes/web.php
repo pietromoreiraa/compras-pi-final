@@ -22,7 +22,7 @@ Route::resource('/produtos','ProdutoController');
 Route::resource('/fornecedor','FornecedorController');
 Route::resource('/solicitacao','SolicitacaoController');
 
-
+Route::view('/vue', 'Index.vue');
 
 Auth::routes();
 

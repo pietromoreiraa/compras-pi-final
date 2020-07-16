@@ -2,12 +2,16 @@
 
 @section('content')
 
+<style>
+    @import '~pretty-checkbox/scss/variables';
+    @import '~pretty-checkbox/scss/core';
 
-
+</style>
     <div class="container">
+
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card">
+            <div class="card" style="background-color: #1b1e21 ">
                 <div class="card-header">{{ __('Login') }}</div>
 
                 <div class="card-body">
@@ -15,7 +19,7 @@
                         @csrf
 
                         <div class="form-group row">
-                            <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-mail') }}</label>
+                            <label for="email" class="col-md-4 col-form-label text-md-right" >{{ __('E-mail') }}</label>
 
                             <div class="col-md-6">
                                 <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
@@ -32,10 +36,21 @@
                             <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Senha') }}</label>
 
                             <div class="col-md-6">
-                                <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
 
-                                <div class="pretty p-icon p-toggle p-plain">
-                                    <input type="checkbox" onclick="myFunction()"/>
+
+                                <div >
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text pretty p-default" >
+
+
+                                                <input type="checkbox" aria-label="Radio button for following text input" onclick="myFunction()"/>
+                                            </div>
+                                        </div>
+                                        <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
+                                    </div>
+
+
 
                                 </div>
                                <script>

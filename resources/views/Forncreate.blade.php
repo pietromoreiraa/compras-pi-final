@@ -2,6 +2,7 @@
 
 @section('content')
 
+
     <h1 class="text-center">Cadastrar Fornecedor</h1>
 
 

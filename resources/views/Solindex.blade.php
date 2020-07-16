@@ -11,7 +11,7 @@
     </div>
 
     <div class="col-8 m-auto">
-        <table class="table text-center">
+        <table class="table text-center table table-striped table-dark">
             <thead class="btn-dark">
 
             <tr>
@@ -52,7 +52,7 @@
                             @else
 
                             <a href="{{url("search/$solicitacoes->id")}}">
-                                <button class="btn btn-primary">Cotar</button>
+                                <button class="btn btn-primary" type="filled">Cotar</button>
                             </a>
                             @endif
                     </td>

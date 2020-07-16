@@ -11,7 +11,7 @@
     </div>
 
     <div class="col-8 m-auto">
-        <table class="table text-center">
+        <table class="table text-center table table-striped table-dark">
             <thead class="thead-dark">
             <tr>
                 <th scope="col">Id</th>

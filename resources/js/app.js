@@ -4,6 +4,9 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
+require("bootstrap-css-only/css/bootstrap.min.css");
+require("mdbvue/lib/css/mdb.min.css");
+require("@fortawesome/fontawesome-free/css/all.min.css");
 require('./bootstrap');
 
 window.Vue = require('vue');
@@ -19,8 +22,9 @@ window.Vue = require('vue');
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
-Vue.component('front-page', require('./components/Front.vue').default);
-Vue.component('indexp', require('./components/Index.vue'));
+Vue.component('nav-bar', require('./components/ExampleComponent.vue').default);
+
+
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -31,5 +35,7 @@ Vue.component('indexp', require('./components/Index.vue'));
 const app = new Vue({
     el: '#app',
 });
+
+
 
 
