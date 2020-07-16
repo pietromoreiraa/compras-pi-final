@@ -2,206 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2275fc81-f4ed-4197-afc8-0e0db89dcca0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/Imagem/232984.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Imagem/dd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Imagem/thumb-1920-950753.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Imagem/thumb-1920-980830.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/vendor/@fortawesome/fontawesome-free/webfa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/vendor/mdbvue/lib/overlays/01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/vendor/mdbvue/lib/overlays/02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/vendor/mdbvue/lib/overlays/03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/vendor/mdbvue/lib/overlays/04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/vendor/mdbvue/lib/overlays/05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/vendor/mdbvue/lib/overlays/06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/vendor/mdbvue/lib/overlays/07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/vendor/mdbvue/lib/overlays/08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/vendor/mdbvue/lib/overlays/09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/vendor/mdbvue/lib/svg/arrow_left.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/vendor/mdbvue/lib/svg/arrow_right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/jquery.mask.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/jquery.mask.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/argon.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/_alert.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/_badge.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/_breadcrumb.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/_button-group.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/_buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/_card.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/_carousel.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/_close.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/_code.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/_custom-forms.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/_dropdown.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/_forms.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/_functions.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/_grid.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/_images.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/_input-group.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/_jumbotron.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/_list-group.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/_media.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/_modal.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/_nav.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/_navbar.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/_pagination.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/_popover.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/_print.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/_progress.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/_reboot.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/_root.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/_tables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/_tooltip.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/_transitions.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/_type.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/_utilities.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/mixins/_alert.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/mixins/_background-variant.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/mixins/_badge.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/mixins/_border-radius.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/mixins/_box-shadow.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/mixins/_breakpoints.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/mixins/_buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/mixins/_caret.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/mixins/_clearfix.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/mixins/_float.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/mixins/_forms.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/mixins/_gradients.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/mixins/_grid-framework.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/mixins/_grid.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/mixins/_hover.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/mixins/_image.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/mixins/_list-group.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/mixins/_lists.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/mixins/_nav-divider.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/mixins/_pagination.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/mixins/_reset-text.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/mixins/_resize.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/mixins/_screen-reader.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/mixins/_size.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/mixins/_table-row.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/mixins/_text-emphasis.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/mixins/_text-hide.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/mixins/_text-truncate.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/mixins/_transition.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/mixins/_visibility.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/utilities/_align.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/utilities/_background.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/utilities/_borders.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/utilities/_clearfix.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/utilities/_display.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/utilities/_embed.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/utilities/_flex.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/utilities/_float.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/utilities/_position.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/utilities/_screenreaders.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/utilities/_shadows.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/utilities/_sizing.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/utilities/_spacing.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/utilities/_text.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/bootstrap/utilities/_visibility.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/_accordion.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/_alerts.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/_avatars.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/_badge.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/_buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/_card.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/_carousel.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/_close.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/_custom-forms.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/_dropdown.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/_footer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/_forms.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/_functions.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/_global.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/_grid.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/_icons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/_input-group.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/_list-group.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/_modal.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/_nav.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/_navbar.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/_pagination.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/_popover.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/_progress.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/_reboot.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/_section.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/_type.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/_utilities.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/mixins/_alert.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/mixins/_background-variant.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/mixins/_badge.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/mixins/_buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/mixins/_forms.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/mixins/_icon.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/mixins/_modals.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/mixins/_popover.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/utilities/_backgrounds.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/utilities/_floating.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/utilities/_helper.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/utilities/_shadows.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/utilities/_sizing.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/utilities/_spacing.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/utilities/_text.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/utilities/_transform.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/vendor/_flatpickr.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/vendor/_headroom.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/custom/vendor/_nouislider.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/vendor/font-awesome/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/vendor/font-awesome/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/vendor/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/vendor/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/vendor/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/vendor/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/vendor/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/vendor/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/vendor/nucleo/css/nucleo-svg.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/vendor/nucleo/css/nucleo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/vendor/nucleo/fonts/nucleo-icons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/vendor/nucleo/fonts/nucleo-icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/vendor/nucleo/fonts/nucleo-icons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/vendor/nucleo/fonts/nucleo-icons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/vendor/nucleo/fonts/nucleo-icons.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/Front.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/Index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Forncreate.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Forncreate.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Solcreate.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Solcreate.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Solindex.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Solindex.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Templates/template.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Templates/template.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/indexForn.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/indexForn.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/prodCotacao.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/prodCotacao.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/showForn.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/showForn.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -397,7 +199,16 @@
       <workItem from="1594668102612" duration="5476000" />
       <workItem from="1594742700734" duration="160000" />
       <workItem from="1594771480789" duration="986000" />
+      <workItem from="1594929222736" duration="3199000" />
     </task>
+    <task id="LOCAL-00001" summary="public site">
+      <created>1594930207647</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594930207647</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -405,8 +216,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="public site" />
+    <option name="LAST_COMMIT_MESSAGE" value="public site" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="725" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594932797867">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="725" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594932797867" />
     <state x="1194" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1590113413911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -419,6 +236,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591133839657" />
+    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1594930200730">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594930200730" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1592281134182">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -443,14 +264,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590766668904" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1594930222114">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594930222114" />
     <state x="1135" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1594771489028">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1135" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594771489028" />
-    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594929304120">
+    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594932926511">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594929304120" />
+    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594932926511" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1592265842921">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
