@@ -5,12 +5,22 @@
 
 @endsection
 
+
+<style>
+    .img5{
+
+        width: 1080px;
+
+         }
+</style>
+
+
 <br><br>
 <div style="background-color: #6610f2; " >
     <div class="row">
         <div class="col-7" style="padding: 0px; ">
 
-            <img src="{!! asset('../imagem/dd.png') !!}" class="img-fluid" alt="Responsive image">
+           <img src="https://i.ibb.co/vPYKzkc/dd.png" alt="dd" border="0" class="img5">
 
         </div>
 
