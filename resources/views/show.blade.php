@@ -18,13 +18,13 @@
             $fornecedor=$produto->find($produto->id)->relFornecedor;
         @endphp
 
-        <table class="table text-center table table-striped">
+        <table class="table text-center table table-striped table-responsive-lg">
             <thead style="background-color: #1b1e21; color: white" class="text-center">
             <tr>
                 <th scope="col">Nome</th>
                 <th scope="col">Preço</th>
                 <th scope="col">Fonecedor</th>
-                <th scope="col">E-mail do fornecedor</th>
+                <th scope="col">E-mail do Fornecedor</th>
                 <th scope="col">Telefone</th>
                 <th scope="col">Última Modificação</th>
             </tr>
