@@ -2,55 +2,34 @@
 
 @section('content')
 
-    <h1 class="text-center">Detalhamento Fornecedor</h1>
 
 
 
-    <div class="col-8 m-auto">
-        <table class="table table-borderless table-dark">
-            <thead>
+
+
+
+
+
+    <div class=" col-5 m-auto mt-5" style="font-family: 'Century Gothic'">
+
+        <ul class="list-group mt-5">
+            <li class="list-group-item text-center" style="background-color: #4aa0e6; color: white"><b>Detalhamento Fornecedor</b></li>
+            <li class="list-group-item">Nome: {{$fornecedor->name}}</li>
+            <li class="list-group-item">E-mail: {{$fornecedor->email}}</li>
+            <li class="list-group-item">Celular: {{$fornecedor->celular}}</li>
+        </ul>
+
         @php
             /** @var TYPE_NAME $fornecedor */
             $produto=$fornecedor->find($fornecedor->id)->relProduto->all();
         @endphp
-        <tr>
-            <th scope="col">Nome do fornecedor</th>
-            <th scope="col">E-mail</th>
-            <th scope="col">Celular</th>
-            <th scope="col">Produtos</th>
-        </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <th scope="row">{{$fornecedor->name}}</th>
-                <td>{{$fornecedor->email}}</td>
-                <td>{{$fornecedor->celular}}</td>
 
-            </tr>
-
-
-
-            </tbody>
-
-
-            <tr>
-                <th scope="row">Produtos deste fornecedor</th>
-                <td colspan="2"></td>
-                @foreach($produto as $produtos)
-                <td><a href="{{url("produtos/$produtos->id")}}" style="color: #ffe70a; font-weight:bold ">{{$produtos->name}}</a><br></td>
-                @endforeach
-            </tr>
-
-
-
-       <br>
-
-
-
-        </table>
-
-       <br> <a href="{{url("fornecedor")}}"><button class="btn btn-primary">Voltar</button></a>
-
+        <ul class="list-group mt-5 text-center">
+            <li class="list-group-item text-center" style="background-color: #27864f; color: white"><b>Produtos deste fornecedor</b></li>
+            @foreach($produto as $produtos)
+            <li class="list-group-item"><a href="{{url("produtos/$produtos->id")}}" style="color: #27864f; font-weight:bold ">{{$produtos->name}}</a></li>
+            @endforeach
+        </ul>
     </div>
 
 

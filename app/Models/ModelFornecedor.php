@@ -12,4 +12,5 @@ class ModelFornecedor extends Model
     public function relProduto(){
         return $this->hasMany('App\Models\ModelProduto', 'id_fornecedor');
     }
+
 }

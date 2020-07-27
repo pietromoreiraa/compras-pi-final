@@ -21,6 +21,7 @@ use Illuminate\Support\Facades\DB;
 Route::resource('/produtos','ProdutoController');
 Route::resource('/fornecedor','FornecedorController');
 Route::resource('/solicitacao','SolicitacaoController');
+Route::resource('/cotacao','CotacaoController');
 
 Route::view('/vue', 'Index.vue');
 
@@ -31,9 +32,4 @@ Route::get('/', function() {
 });
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('search/{id}', function($id){
-    $solicitacao = ModelSolicitacao::find($id);
 
-    $produto = DB::table('produto')->where('name','like','%'.$solicitacao->name.'%')->paginate(5);
-    return view('prodCotacao',compact('produto','solicitacao'));
-});

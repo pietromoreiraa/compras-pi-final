@@ -23,7 +23,10 @@ class CreateModelSolicitacaosTable extends Migration
             $table->string('tipoUni');
             $table->string('dataAbertura');
             $table->string('dataFinal');
-            $table->boolean('status');
+            $table->integer('status');
+            $table->integer('id_produto')->unsigned();
+            $table->foreign('id_produto')->references('id')->on('fornecedor')->onDelete('cascade')->onUpdate('cascade');
+
             $table->timestamps();
         });
     }

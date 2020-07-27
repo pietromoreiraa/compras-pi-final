@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 use Carbon\Carbon;
 
-class SolicitacaoController extends Controller
+class CotacaoController extends Controller
 {
     private $objSolicitacao;
     private $objProduto;
@@ -29,8 +29,7 @@ class SolicitacaoController extends Controller
      */
     public function index()
     {
-        $solicitacao=$this->objSolicitacao->all();
-        return view('Solindex',compact('solicitacao'));
+
     }
 
     /**
@@ -40,7 +39,7 @@ class SolicitacaoController extends Controller
      */
     public function create()
     {
-      return view('Solcreate');
+
     }
 
     /**
@@ -80,8 +79,7 @@ class SolicitacaoController extends Controller
      */
     public function show($id)
     {
-        $solicitacao=$this->objSolicitacao->find($id);
-        return view('showCot',compact('solicitacao'));
+        //
     }
 
     /**
@@ -93,8 +91,14 @@ class SolicitacaoController extends Controller
     public function edit($id)
     {
         $solicitacao=$this->objSolicitacao->find($id);
-        return view('cotacao',compact('solicitacao'));
 
+        $produto = DB::table('produto')->where('name','like','%'.$solicitacao->item.'%')->paginate(5);
+        if($produto->isEmpty()) {
+            $produto = 'a';
+            return view('cotacaoFinish', compact('solicitacao', 'produto'));
+        }else{
+            return view('cotacaoFinish', compact('solicitacao', 'produto'));
+        }
     }
 
     /**
@@ -106,32 +110,16 @@ class SolicitacaoController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $ldate=Carbon::now();
+
         $this->objSolicitacao->where(['id'=>$id])->update([
-            'dataAbertura'=>$ldate->toDateTimeString(),
-            'dataFinal'=>$request->dataFinal,
-            'status'=>'1'
+
+            'id_produto'=>$request->id_produto,
+            'status'=>'2'
         ]);
         return redirect('solicitacao');
     }
 
-    public function editCotation($id)
-    {
-        $solicitacao=$this->objSolicitacao->find($id);
-        return view('cotacaoFinish',compact('solicitacao'));
 
-    }
-
-    public function updateCotation(Request $request, $id)
-    {
-        $ldate=Carbon::now();
-        $this->objSolicitacao->where(['id'=>$id])->update([
-            'dataAbertura'=>$ldate->toDateTimeString(),
-            'dataFinal'=>$request->dataFinal,
-            'status'=>'1'
-        ]);
-        return redirect('solicitacao');
-    }
 
     /**
      * Remove the specified resource from storage.

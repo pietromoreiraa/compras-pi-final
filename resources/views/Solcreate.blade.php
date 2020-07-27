@@ -3,10 +3,20 @@
 @section('content')
 
 
+    <style>
 
+
+        .soli{
+            font-family: "Century Gothic";
+            background-color: #1b1e21;
+            color: white;
+
+        }
+
+    </style>
 
 <br><br>
-    <div class="col-8 m-auto">
+    <div class="col-md-4 m-auto soli">
 
         <h1 class="text-center">Solicitação</h1>
 
@@ -30,7 +40,7 @@
                 <option>Lote</option>
                 <option>Caixa</option>
             </select>
-            <br><input class="btn btn-primary" type="submit" value="Cadastrar"><br>
+            <br><input class="btn btn-warning" type="submit" value="Cadastrar"><br>
             <br> <label> Quantidade unitária somente valido por item que vem em caixa. </label>
 
         </form>

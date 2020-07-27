@@ -2,17 +2,20 @@
 
 @section('content')
 
-    <h1 class="text-center">Solicitações</h1>
 
-    <div class="text-center mt-3 mb-4">
+
+    <div class="text-center mt-5 mb-4" style="font-family: 'Century Gothic'">
+
+        <h1 class="text-center">Solicitações</h1>
+
         <a href="{{url('solicitacao/create')}}">
-            <button class="btn btn-success">Cadastrar</button>
+            <button class="btn btn-success">Fazer uma nova solicitação?</button>
         </a>
     </div>
 
-    <div class="col-8 m-auto">
-        <table class="table text-center table table-striped table-dark">
-            <thead class="btn-dark">
+    <div class="col-md-8 m-auto container-fluid">
+        <table class="table text-center table table-striped table-responsive-lg">
+            <thead style="background-color: #1b1e21; color:white">
 
             <tr>
                 <th scope="col">Código</th>
@@ -25,13 +28,13 @@
                 <th scope="col">Data de abertura</th>
                 <th scope="col">Data Final</th>
                 <th scope="col">Status da cotação</th>
-                <th scope="col">Ações</th>
+                <th scope="col">Cotação</th>
 
 
             </tr>
 
             </thead>
-            <tbody>
+            <tbody class="container-group">
                 @foreach($solicitacao as $solicitacoes)
                 <tr>
                     <th scope="row">{{$solicitacoes->id}}</th>
@@ -43,16 +46,26 @@
                     <td>{{$solicitacoes->tipoUni}}</td>
                     <td>@if(isset($solicitacoes->dataAbertura)){{$solicitacoes->dataAbertura}}@else Não definido @endif</td>
                     <td>@if(isset($solicitacoes->dataFinal)){{$solicitacoes->dataFinal}}@else Não definido @endif</td>
-                    <td>@if($solicitacoes->status==1) Aberto @else Fechado @endif</td>
+                    <td>@if($solicitacoes->status==1) Aberto @elseif($solicitacoes->status==2) Finalizado @else Fechado @endif</td>
                     <td>
-                        @if($solicitacoes->status==0)
-                        <a href="{{url("solicitacao/$solicitacoes->id/edit")}}">
-                            <button class="btn btn-primary">Criar cotação</button>
+                        @if($solicitacoes->status==2)
+                        <a href="{{url("solicitacao/$solicitacoes->id")}}">
+                            <button class="btn btn-success">
+                                <i class="fas fa-eye"></i>
+                            </button>
                         </a>
-                            @else
+                            @elseif($solicitacoes->status==1)
 
-                            <a href="{{url("search/$solicitacoes->id")}}">
-                                <button class="btn btn-primary" type="filled">Cotar</button>
+                            <a href="{{url("cotacao/$solicitacoes->id/edit")}}">
+                                <button class="btn btn-warning" type="filled">
+                                    <i class="fa fa-list-ul" aria-hidden="true"></i>
+                                </button>
+                            </a>
+                            @else
+                            <a href="{{url("solicitacao/$solicitacoes->id/edit")}}">
+                                <button class="btn btn-danger">
+                                    <i class="fas fa-plus-circle" ></i>
+                                </button>
                             </a>
                             @endif
                     </td>

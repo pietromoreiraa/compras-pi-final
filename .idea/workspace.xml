@@ -1,9 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2275fc81-f4ed-4197-afc8-0e0db89dcca0" name="Default Changelist" comment="procfile for heroku 2">
+    <list default="true" id="2275fc81-f4ed-4197-afc8-0e0db89dcca0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CotacaoController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/cotacaoFinish.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/showCot.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SolicitacaoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SolicitacaoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ModelFornecedor.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/ModelFornecedor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ModelProduto.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/ModelProduto.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/ModelSolicitacao.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/ModelSolicitacao.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_06_02_182223_create_model_solicitacaos_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_06_02_182223_create_model_solicitacaos_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Solcreate.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Solcreate.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Solindex.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Solindex.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Templates/template.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Templates/template.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/indexForn.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/indexForn.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/showForn.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/showForn.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +157,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -158,11 +177,11 @@
       <recent name="C:\wamp\compras\resources\views\" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\compras\resources\views" />
+      <recent name="C:\wamp\compras\app\Http\Controllers" />
       <recent name="C:\wamp\compras\resources\js" />
       <recent name="C:\wamp\compras\public\Imagem" />
       <recent name="C:\wamp\compras\Img" />
-      <recent name="C:\wamp\compras\resources\Img" />
-      <recent name="C:\wamp\compras\public\assets" />
     </key>
   </component>
   <component name="RunManager">
@@ -201,7 +220,11 @@
       <workItem from="1594771480789" duration="986000" />
       <workItem from="1594929222736" duration="6832000" />
       <workItem from="1594972250342" duration="541000" />
-      <workItem from="1595278632731" duration="2803000" />
+      <workItem from="1595278632731" duration="13271000" />
+      <workItem from="1595293691754" duration="70000" />
+      <workItem from="1595362102048" duration="15090000" />
+      <workItem from="1595439583292" duration="11723000" />
+      <workItem from="1595879656037" duration="9330000" />
     </task>
     <task id="LOCAL-00001" summary="public site">
       <created>1594930207647</created>
@@ -238,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594936178920</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="img">
+      <created>1595281803745</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1595281803745</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,7 +282,8 @@
     <MESSAGE value="heroku deploy 2" />
     <MESSAGE value="procfile for heroku" />
     <MESSAGE value="procfile for heroku 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="procfile for heroku 2" />
+    <MESSAGE value="img" />
+    <option name="LAST_COMMIT_MESSAGE" value="img" />
   </component>
   <component name="WindowStateProjectService">
     <state x="725" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594935499881">
@@ -267,18 +298,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592276437789" />
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1591133839657">
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1595369077997">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591133839657" />
-    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1595281742325">
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595369077997" />
+    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1595281801983">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595281742325" />
-    <state x="660" y="269" key="FileChooserDialogImpl" timestamp="1594972795122">
+    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595281801983" />
+    <state x="660" y="269" key="FileChooserDialogImpl" timestamp="1595293775618">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="660" y="269" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594972795122" />
+    <state x="660" y="269" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1595293775618" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1592281134182">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -307,14 +338,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590766668904" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1594936181448">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1595281805906">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594936181448" />
-    <state x="1135" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1594972753495">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595281805906" />
+    <state x="1135" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1595879662759">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1135" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594972753495" />
+    <state x="1135" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595879662759" />
     <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594932926511">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -323,10 +354,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="651" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594934347881" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1592265842921">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1595883932786">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592265842921" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595883932786" />
     <state x="1010" y="216" width="672" height="678" key="search.everywhere.popup" timestamp="1594929248618">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
