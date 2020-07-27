@@ -2,27 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2275fc81-f4ed-4197-afc8-0e0db89dcca0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CotacaoController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/cotacaoFinish.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/showCot.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SolicitacaoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SolicitacaoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/ModelFornecedor.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/ModelFornecedor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/ModelProduto.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/ModelProduto.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/ModelSolicitacao.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/ModelSolicitacao.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_06_02_182223_create_model_solicitacaos_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_06_02_182223_create_model_solicitacaos_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Solcreate.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Solcreate.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Solindex.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Solindex.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Templates/template.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Templates/template.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/indexForn.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/indexForn.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/showForn.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/showForn.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cotacaoFinish.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cotacaoFinish.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +205,7 @@
       <workItem from="1595293691754" duration="70000" />
       <workItem from="1595362102048" duration="15090000" />
       <workItem from="1595439583292" duration="11723000" />
-      <workItem from="1595879656037" duration="9330000" />
+      <workItem from="1595879656037" duration="10101000" />
     </task>
     <task id="LOCAL-00001" summary="public site">
       <created>1594930207647</created>
@@ -268,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595281803745</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="img">
+      <created>1595892086025</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1595892086025</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,10 +290,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595369077997" />
-    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1595281801983">
+    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1595892078979">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595281801983" />
+    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595892078979" />
     <state x="660" y="269" key="FileChooserDialogImpl" timestamp="1595293775618">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -338,10 +326,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590766668904" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1595281805906">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1595892095248">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595281805906" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595892095248" />
     <state x="1135" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1595879662759">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

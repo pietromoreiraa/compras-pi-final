@@ -20,13 +20,13 @@
 
 
         <table class="table text-center table table-striped ">
-            <thead style="background-color: #1b1e21; color: black ">
+            <thead style="background-color: #1b1e21; color: white ">
 
             <tr>
                 <th scope="col">Código</th>
                 <th scope="col">Nome</th>
                 <th scope="col">Preço</th>
-                <th scope="col">Ação</th>
+                <th scope="col">Selecionar</th>
 
 
             </tr>
@@ -44,9 +44,9 @@
                         <form name="formSolicitacao" id="formSolicitacao" method="post" action="{{url("cotacao/$solicitacao->id")}}">
                             @method('PUT')
                             @csrf
-                            <input class="form-control" type="hidden" name="id_produto" id="id_produto" value="{{$produtos->id}}" required><br>
+                            <input class="form-control" type="hidden" name="id_produto" id="id_produto" value="{{$produtos->id}}" required>
 
-                            <input class="btn btn-primary" type="submit" value="Selecionar">
+                            <button type="submit"class="btn btn-success"><i class="fas fa-check-square"></i></button>
 
                         </form>
                     </td>
