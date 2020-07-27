@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2275fc81-f4ed-4197-afc8-0e0db89dcca0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Templates/template.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Templates/template.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +205,7 @@
       <workItem from="1595293691754" duration="70000" />
       <workItem from="1595362102048" duration="15090000" />
       <workItem from="1595439583292" duration="11723000" />
-      <workItem from="1595879656037" duration="10971000" />
+      <workItem from="1595879656037" duration="11543000" />
     </task>
     <task id="LOCAL-00001" summary="public site">
       <created>1594930207647</created>
@@ -270,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595893210632</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fim3">
+      <created>1595893952913</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1595893952913</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,7 +294,8 @@
     <MESSAGE value="img" />
     <MESSAGE value="fim" />
     <MESSAGE value="fim2" />
-    <option name="LAST_COMMIT_MESSAGE" value="fim2" />
+    <MESSAGE value="fim3" />
+    <option name="LAST_COMMIT_MESSAGE" value="fim3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="725" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594935499881">
@@ -306,10 +314,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595369077997" />
-    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1595893209046">
+    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1595893951483">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595893209046" />
+    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595893951483" />
     <state x="660" y="269" key="FileChooserDialogImpl" timestamp="1595293775618">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -342,10 +350,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590766668904" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1595893212886">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1595893959949">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595893212886" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595893959949" />
     <state x="1135" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1595879662759">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
