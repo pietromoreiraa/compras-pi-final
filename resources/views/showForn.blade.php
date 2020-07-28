@@ -10,7 +10,7 @@
 
 
 
-    <div class=" col-5 m-auto mt-5" style="font-family: 'Century Gothic'">
+    <div class=" col-lg-2  col-sm-4 m-auto mt-5" style="font-family: 'Century Gothic'">
 
         <ul class="list-group mt-5">
             <li class="list-group-item text-center" style="background-color: #4aa0e6; color: white"><b>Detalhamento Fornecedor</b></li>
